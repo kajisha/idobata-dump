@@ -3,7 +3,7 @@ var addSushiButton = function(){
     if ($('#dump').length == 0){
       $('.message-form textarea').before('<button id="dump" class="btn attach-file-text"><img src="'+chrome.extension.getURL('images/btn-dump.png')+'"></button>')
       var contents = '<div id="dump_contents" class="modal fade" aria-hidden="true" style="display: none;"><div class="modal-header"><button class="close" data-dismiss="modal" type="button">×</button><h3>pick dump</h3></div><div class="modal-body">'
-      contents += '<img class="dump" src="https://avatars2.githubusercontent.com/u/1160522?v=2&s=400">'
+      contents += '<img class="dump" src="https://avatars2.githubusercontent.com/u/1160522?v=2&s=400#.png">'
       contents += '</div></div>'
       $('body').append(contents)
     }
