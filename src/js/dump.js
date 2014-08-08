@@ -1,4 +1,4 @@
-var addSushiButton = function(){
+var addDumpButton = function(){
   setTimeout(function(){
     if ($('#dump').length == 0){
       $('.message-form textarea').before('<button id="dump" class="btn attach-file-text"><img src="'+chrome.extension.getURL('images/btn-dump.png')+'"></button>')
@@ -11,11 +11,11 @@ var addSushiButton = function(){
 }
 
 $(function(){
-  addSushiButton();
+  addDumpButton();
 });
 
 $(document).on('click', '.ember-view.room', function(ev){
-  addSushiButton();
+  addDumpButton();
 });
 
 $(document).on('click', '#dump', function(ev){
