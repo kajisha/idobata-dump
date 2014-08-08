@@ -1,0 +1,32 @@
+{
+  "name": "dump",
+  "short_name": "dump",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "description": "idobataにダンプボタンを追加します",
+  "icons": {
+    "48":  "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "permissions": [
+    "https://idobata.io/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://idobata.io/*"],
+      "css": [
+        "css/dump.css"
+      ],
+      "js": [
+        "js/jquery-2.1.0.min.js",
+        "js/bootstrap.min.js",
+        "js/underscore-min.js",
+        "js/dump.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "js/underscore-min.map",
+    "images/btn-dump.png"
+  ]
+}
