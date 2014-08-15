@@ -6,6 +6,7 @@ var addDumpButton = function(){
       contents += '<img class="dump" src="https://avatars2.githubusercontent.com/u/1160522?v=2&s=400#.png" title="dany1468 the developer">';
       contents += '<img class="dump" src="https://idobata.s3.amazonaws.com/uploads/attachment/image/6406/967d853a-2b9c-4e1f-95b9-749ddc078092/ldtm.png" title="LDTM">';
       contents += '<img class="dump" src="https://idobata.s3.amazonaws.com/uploads/attachment/image/6413/ea2f0578-73af-4613-9633-024b99e388ed/turban.jpg" title="Nice Tarban">';
+      contents += '<img class="dump" src="http://ss-tribe.c.blog.so-net.ne.jp/_images/blog/_a58/ss-tribe/1386349129-0657-001.jpg", title="Columbia">';
       contents += '</div></div>';
       $('body').append(contents);
     }
