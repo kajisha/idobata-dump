@@ -1,7 +1,7 @@
 {
   "name": "dump",
   "short_name": "dump",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "manifest_version": 2,
   "description": "idobataにダンプボタンを追加します",
   "icons": {
