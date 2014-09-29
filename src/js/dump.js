@@ -9,6 +9,7 @@ var addDumpButton = function(){
       contents += '<img class="dump" src="http://ss-tribe.c.blog.so-net.ne.jp/_images/blog/_a58/ss-tribe/1386349129-0657-001.jpg" title="Columbia">';
       contents += '<img class="dump" src="https://idobata.s3.amazonaws.com/uploads/attachment/image/24697/1b2ae1cd-8b71-4c18-9999-18e2c1693ba2/image.jpg" title="Dump Kamiyama">';
       contents += '<img class="dump" src="http://pbs.twimg.com/media/BtHBXczCIAIy_so.jpg" title="newgame_dameda">';
+      contents += '<img class="dump" src="https://idobata.s3.amazonaws.com/uploads/attachment/image/35648/4d397ab0-a43a-4462-94ca-6ec93a560879/image.jpg" title="dump pepper">';
       contents += '</div></div>';
       $('body').append(contents);
     }
